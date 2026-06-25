@@ -41,5 +41,5 @@ when "--version"
   Taylor::Commands::Version.call
 
 else
-  Taylor::Commands::Run.call(command, ARGV, options)
+  Taylor::Commands::Run.call(ARGV, options)
 end
